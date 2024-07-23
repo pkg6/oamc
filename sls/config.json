@@ -1,0 +1,13 @@
+{
+  "listener": [
+    "host_info",
+    "cpu_percent",
+    "loadavg",
+    "memory",
+    "disk",
+    "process"
+  ],
+  "sender": {
+    "console": {}
+  }
+}
