@@ -11,11 +11,11 @@ go install github.com/pkg6/oamc/sls@latest
 
 > Default Path
 >
-> `config.json` ,`~/.sls/config.json`,` /etc/sls/config.json`
+> `config.json` ,`~/.oamc/sls.json`,` /etc/oamc/sls.json`
 
 ~~~
-➜  ~ mkdir -p ~/.sls
-➜  ~ cat > ~/.sls/config.json << EOF
+➜  ~ mkdir -p ~/.oamc
+➜  ~ cat > ~/.oamc/sls.json << EOF
 {
   "listener": [
     "host_info",

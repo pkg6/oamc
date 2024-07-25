@@ -23,8 +23,8 @@ func init() {
 	_ = os.Setenv("SLS_LANG", "zh-CN")
 	homePath, _ = os.UserHomeDir()
 	paths = []string{
-		path.Join(homePath, ".sls", "config.json"),
-		path.Join("/etc", "sls", "config.json"),
+		path.Join(homePath, ".oamc", "sls.json"),
+		path.Join("/etc", "oamc", "sls.json"),
 	}
 	lang.Load()
 	flag.StringVar(&inputPath, "f", "config.json", "User-defined configuration files")
